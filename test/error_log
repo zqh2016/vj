@@ -1,0 +1,48 @@
+[21-Dec-2015 19:05:06 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'The Facebook SDK requires PHP version 5.4 or higher.' in /home/zqhcom16/public_html/vintagejewelryshopping.com/test/Facebook/autoload.php:32
+Stack trace:
+#0 /home/zqhcom16/public_html/vintagejewelryshopping.com/test/test.php(2): require_once()
+#1 {main}
+  thrown in /home/zqhcom16/public_html/vintagejewelryshopping.com/test/Facebook/autoload.php on line 32
+[21-Dec-2015 19:06:11 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Exception' with message 'The Facebook SDK requires PHP version 5.4 or higher.' in /home/zqhcom16/public_html/vintagejewelryshopping.com/test/Facebook/autoload.php:32
+Stack trace:
+#0 /home/zqhcom16/public_html/vintagejewelryshopping.com/test/test.php(3): require_once()
+#1 {main}
+  thrown in /home/zqhcom16/public_html/vintagejewelryshopping.com/test/Facebook/autoload.php on line 32
+[21-Dec-2015 22:00:38 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 22:00:38 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 22:32:15 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 22:32:15 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 22:32:21 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 22:32:22 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 22:32:45 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 22:32:45 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:48:55 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:48:55 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:49:23 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:49:23 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:49:27 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:49:27 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:50:03 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:50:03 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:51:48 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:51:48 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[21-Dec-2015 23:53:01 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[21-Dec-2015 23:53:01 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:16:00 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:16:00 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:17:37 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:17:37 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:18:24 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:18:24 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:20:00 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:20:00 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:20:29 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:20:30 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:21:22 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:21:23 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:22:40 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:22:40 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:27:03 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:27:03 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
+[22-Dec-2015 01:29:13 America/Los_Angeles] PHP Warning:  Module 'json' already loaded in Unknown on line 0
+[22-Dec-2015 01:29:13 America/Los_Angeles] PHP Warning:  APM cannot be enabled, '/var/php/apm/db' is not directory in Unknown on line 0
