@@ -10,7 +10,7 @@ Text Domain:
 Domain Path: 
 License: GPL2
  */
-
+$resp = error_reporting();var_dump($resp);
 /* 注册激活插件时要调用的函数 */ 
 register_activation_hook( __FILE__, 'display_zqh_install');   
 
