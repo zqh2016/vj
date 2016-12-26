@@ -62,7 +62,7 @@ define('DIR_WS_HTTPS_CATALOG', '/');
 if(strpos($_SERVER['DOCUMENT_ROOT'], "E:/code/web/") !== FALSE){
     define('DIR_FS_CATALOG', 'E:/code/web/test/vj/shop/');
 }else{
-    define('DIR_FS_CATALOG', '/www/vj/');
+    define('DIR_FS_CATALOG', '/www/vj/shop/');
 }
 
 /**
