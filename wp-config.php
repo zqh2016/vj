@@ -18,7 +18,6 @@
 /** The name of the database for WordPress */
 //define('DB_NAME', 'zqhshop');
 //define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', 'E:\code\web\test\vj\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
 define('DB_NAME', 'vj2016');
 
 /** MySQL database username */

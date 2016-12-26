@@ -14,7 +14,10 @@
 /**
  * Enter the domain for your Admin URL. If you have SSL, enter the correct https address in the HTTP_SERVER setting, instead of just an http address.
  */
-define('HTTP_SERVER', 'http://www.vj2016.com');
+ if(strpos($_SERVER['HTTP_HOST'], "vj2016.com") !== FALSE)
+    define('HTTP_SERVER', 'http://www.vj2016.com');
+ else
+    define('HTTP_SERVER', 'http://www.vintagejewelryshopping.com');
 /**
  * Note about HTTPS_SERVER:
  * There is no longer an HTTPS_SERVER setting for the Admin. Instead, put your SSL URL in the HTTP_SERVER setting above.
@@ -30,8 +33,14 @@ define('HTTP_SERVER', 'http://www.vj2016.com');
  * Enter the domain for your storefront URL.
  * Enter a separate SSL URL in HTTPS_CATALOG_SERVER if your store supports SSL.
  */
-define('HTTP_CATALOG_SERVER', 'http://www.vj2016.com');
-define('HTTPS_CATALOG_SERVER', 'https://www.vj2016.com');
+  if(strpos($_SERVER['HTTP_HOST'], "vj2016.com") !== FALSE){
+    define('HTTP_CATALOG_SERVER', 'http://www.vj2016.com');
+    define('HTTPS_CATALOG_SERVER', 'https://www.vj2016.com');
+  }else{
+    define('HTTP_CATALOG_SERVER', 'http://www.vintagejewelryshopping.com');
+    define('HTTPS_CATALOG_SERVER', 'https://www.vintagejewelryshopping.com');
+  }
+
 
 /**
  * Do you use SSL for your customers login/checkout on the storefront? If so, enter 'true'. Else 'false'.
@@ -50,7 +59,11 @@ define('DIR_WS_HTTPS_CATALOG', '/');
  * This is the complete physical path to your store's files.  eg: /var/www/vhost/accountname/public_html/store/
  * Should have a closing / on it.
  */
-define('DIR_FS_CATALOG', 'E:/code/web/test/vj/');
+if(strpos($_SERVER['DOCUMENT_ROOT'], "E:/code/web/") !== FALSE){
+    define('DIR_FS_CATALOG', 'E:/code/web/test/vj/shop/');
+}else{
+    define('DIR_FS_CATALOG', '/www/vj/');
+}
 
 /**
  * NOTE about DIR_FS_ADMIN
@@ -66,8 +79,8 @@ define('DB_TYPE', 'mysql'); // always 'mysql'
 define('DB_PREFIX', ''); // prefix for database table names -- preferred to be left empty
 define('DB_CHARSET', 'utf8'); // 'utf8' or 'latin1' are most common
 define('DB_SERVER', 'localhost');  // address of your db server
-define('DB_SERVER_USERNAME', 'root');
-define('DB_SERVER_PASSWORD', '1234');
+define('DB_SERVER_USERNAME', 'wwwuser');
+define('DB_SERVER_PASSWORD', 'tesT1234');
 define('DB_DATABASE', 'vj2016');
 
 /**
