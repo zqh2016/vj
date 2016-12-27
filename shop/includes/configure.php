@@ -15,8 +15,13 @@
  * HTTP_SERVER is your Main webserver: eg-http://www.yourdomain.com
  * HTTPS_SERVER is your Secure/SSL webserver: eg-https://www.yourdomain.com
  */
-define('HTTP_SERVER', 'http://www.vj2016.com');
-define('HTTPS_SERVER', 'https://www.vj2016.com');
+ if(strpos($_SERVER['HTTP_HOST'], "vj2016.com") !== FALSE){
+	define('HTTP_SERVER', 'http://www.vj2016.com');
+	define('HTTPS_SERVER', 'https://www.vj2016.com');
+ }else{
+	define('HTTP_SERVER', 'http://www.vintagejewelryshopping.com');
+	define('HTTPS_SERVER', 'https://www.vintagejewelryshopping.com');
+ }
 
 /**
  *  If you want to tell Zen Cart to use your HTTPS URL on sensitive pages like login and checkout, set this to 'true'. Otherwise 'false'. (Keep the quotes)
@@ -35,7 +40,11 @@ define('DIR_WS_HTTPS_CATALOG', '/');
  * This is the complete physical path to your store's files.  eg: /var/www/vhost/accountname/public_html/store/
  * Should have a closing / on it.
  */
-define('DIR_FS_CATALOG', 'E:/code/web/test/vj/');
+if(strpos($_SERVER['DOCUMENT_ROOT'], "E:/code/web/") !== FALSE){
+    define('DIR_FS_CATALOG', 'E:/code/web/test/vj/shop/');
+}else{
+    define('DIR_FS_CATALOG', '/www/vj/shop/');
+}
 
 /**
  * The following settings define your database connection.
